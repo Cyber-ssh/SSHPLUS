@@ -89,6 +89,3 @@ service ssh restart >/dev/null 2>&1
 rm -rf $lst1/list >/dev/null 2>&1
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/proxydt && chmod 777 proxydt && cd $HOME
 cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/cyberproxy && chmod 777 cyberproxy && cd $HOME
-cd /etc/SSHPlus/ && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/WebSocket && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/pub.key && wget https://raw.githubusercontent.com/Cyber-ssh/sshplus/main/Modulos/priv.pem && chmod 777 WebSocket && cd $HOME
-cd /etc/SSHPlus/ && wget http://raw.githubusercontent.com/Cyber-ssh/sshplus/main/wssecurity.sh && dos2unix wssecurity.sh && chmod 777 wssecurity.sh && ./wssecurity.sh && cd $HOME
-cd /etc/SSHPlus/ && wget https://www.dropbox.com/s/muh8otpcjb9qa6d/WebSocket && wget https://www.dropbox.com/s/zv01bftfjj58wt8/pub.key && wget https://www.dropbox.com/s/pj5s9x23boj840q/priv.pem && chmod 777 WebSocket && cd $HOME
